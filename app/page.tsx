@@ -1,5 +1,5 @@
 
-import Dashboard from "./src/components/_dashboard";
+import Dashboard from "./src/components/dashboard";
 
 export const metadata = {
   title: "Dashboard",

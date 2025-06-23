@@ -1,4 +1,3 @@
-// app/api/hiring-insights/route.ts
 import { NextResponse } from "next/server";
 
 export interface HiringInsight {

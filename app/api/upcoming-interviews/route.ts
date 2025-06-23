@@ -1,5 +1,3 @@
-// app/api/upcoming-interviews/route.ts
-
 import { NextResponse } from "next/server";
 
 export type Interview = {

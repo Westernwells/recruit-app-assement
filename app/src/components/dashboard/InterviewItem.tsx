@@ -9,7 +9,7 @@ type InterviewItemProps = {
 
 function InterviewItem({ time, candidate, type, icon }: InterviewItemProps) {
   return (
-    <div className="flex flex-col gap-2 bg-gray-100 rounded-e-lg border-l-4 border-purple-500 p-3">
+    <div className="flex flex-col gap-2 bg-gray-100 rounded-e-lg border-l-4 border-purple-500 p-3" data-testid="interview-item">
       <div className="flex flex-col">
         <span>{time}</span>
         <span>{candidate}</span>

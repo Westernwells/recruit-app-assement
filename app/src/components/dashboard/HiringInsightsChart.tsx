@@ -40,9 +40,6 @@ export default function HiringInsightsChart() {
               tickFormatter={(v) => `${v}%`}
             />
             <Tooltip formatter={(value: number) => `${value}%`} />
-              <div className="ml-8">
-                daddyyyyyyy
-              </div>
             <Legend
             className="ml-8"
               content={({ payload }) => (

@@ -1,4 +1,3 @@
-// app/api/stats/route.ts
 import { NextResponse } from "next/server";
 
 export type StatItem = {
@@ -11,7 +10,7 @@ export type StatItem = {
     label: string;
     color: string;
   } | null;
-  label?: string; // Optional label for cases without change
+  label?: string; 
 };
 
 const stats: StatItem[] = [
@@ -43,7 +42,6 @@ const stats: StatItem[] = [
 ] as const;
 
 export async function GET() {
-  // optional: simulate network latency
   await new Promise((r) => setTimeout(r, 200));
   return NextResponse.json({ stats });
 }
